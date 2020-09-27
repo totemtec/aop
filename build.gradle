@@ -13,7 +13,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.aspectj:aspectjweaver:1.9.6'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
 }
